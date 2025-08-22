@@ -34,7 +34,7 @@ def gethelp():
     {color.graybg}{color.red}{color.bold}${color.reset}{color.graybg} python slash.py Ahmadov{color.reset}
     {color.graybg}{color.red}{color.bold}${color.reset}{color.graybg} python slash.py target@gmail.com{color.reset}""")
 
-def _username(username):
+def _username(marcus5737):
     print(f"{symbol.log} {symbol.slash} starting...")
     print(f"{symbol.log} Username [{color.green}{color.bold}{username}{color.reset}] succesfully setted.")
     threading.Thread(target=profiles.run,args=(username,)).start()
@@ -65,7 +65,10 @@ def _start(value : str):
     elif(len(extract.just.phone(value))!=0):
         pass
     else:
-        _username(value)
+        _usernam
+        
+
+e(value)
 
 if __name__ == "__main__":
     clear()
